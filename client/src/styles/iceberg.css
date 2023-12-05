@@ -1,0 +1,80 @@
+.ocean-background {
+    border: 0.75rem solid white;
+}
+
+.iceberg {
+    width: 16vw;
+    height: 18vh;
+    background-color: #ADD8E6;
+    border-radius: 2rem;
+    animation-delay: 1s;
+}
+
+.coin {
+    aspect-ratio: 1;
+    width: 20%;
+    border-radius: 50%;
+    position: relative;
+    top: 30%;
+    left: 40%;
+}
+
+.penguin {
+    aspect-ratio: 1;
+    width: 3vw;
+    display: table;
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 3vw;
+}
+
+@keyframes transformLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-21.2vw);
+    }
+}
+
+@keyframes transformRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(21.2vw);
+    }
+}
+
+@keyframes transformUp {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-26vh);
+    }
+}
+
+@keyframes transformDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(26vh);
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
